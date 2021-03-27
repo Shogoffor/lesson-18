@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.konteyner{
+    width: 1600px;
+    height: 100%;
+    font-family: "poppins";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 100%;
+    height: 798px;
+    background: url(./images/background-top.png) no-repeat;
+    background-size: cover;
+}
+.href{
+    text-decoration: none;
+    margin: 30px;
+    color: rgb(165, 165, 165);
+}
+.sign-in-btn{
+    margin-right: 100px;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: "poppins";
+    
+}
+.sign-up-btn{
+    margin-right: 100px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid black;
+    background: none;
+    font-family: "poppins";
+}
+.nav{
+    width: 1600px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container{
+    margin-top: 150px;
+}
+.kopburchak{
+    display: flex;
+    width: 600px;
+    height: 410px;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.kopburchak img {
+    width: 430px;
+    height: 400px;
+}
+.horizontal-diagramm{
+    background: #FFFFFF;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+}
+.fully{
+}
+.calendar2{
+    width: 600px;
+    height: 410px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+}
+.box8{
+    width: 1600px;
+    height: 1208px;
+    background: url(./images/background-bottom.png) no-repeat;
+    background-size: cover;
+}
+.monitoring-screen{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.monitoring-list{
+    color: white;
+}
+.monitoring-table{
+    width: 873px;
+    height: 554.54px;
+}
